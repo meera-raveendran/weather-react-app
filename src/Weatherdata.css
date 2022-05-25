@@ -1,0 +1,11 @@
+.Weatherdata {
+  font-size: 20px;
+  padding: 5px;
+}
+.WeatherDesc li {
+  padding: 5px 0;
+}
+img {
+  width: 20%;
+}
+
