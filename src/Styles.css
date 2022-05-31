@@ -1,6 +1,10 @@
 
 .App {
-    margin: auto;
+    margin:0 auto;
     display: block;
     width: 600px;
+  }
+  .App footer{
+      font-size: 15px;
+      padding-top: 5px;
   }
