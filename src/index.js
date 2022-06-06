@@ -10,13 +10,13 @@ function App() {
     <div className="App">
     <div className="Container">      
         <h1>WEATHER APP</h1>
-        <Weather/>
+        <Weather defaultCity="Paris"/>
         {/* <Search /> */}
         <footer>
           This project was coded by
-          <a href="" target="_blank"> Meera Raveendran
+          <a href="https://github.com/meera-raveendran/weather-react-app" target="_blank"> Meera Raveendran
         </a> and is 
-         <a  href="" target="_blank"> open-sourced on GitHub</a>
+         <a  href="https://github.com/meera-raveendran/weather-react-app" target="_blank"> open-sourced on GitHub</a>
         </footer>
       </div>
     </div>
