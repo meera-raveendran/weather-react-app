@@ -8,15 +8,12 @@ import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-    <div className="Container">      
-        <h1>WEATHER APP</h1>
+    <div className="Container"> 
         <Weather defaultCity="Paris"/>
         {/* <Search /> */}
         <footer>
-          This project was coded by
-          <a href="https://github.com/meera-raveendran/weather-react-app" target="_blank"> Meera Raveendran
-        </a> and is 
-         <a  href="https://github.com/meera-raveendran/weather-react-app" target="_blank"> open-sourced on GitHub</a>
+          This project was coded by Meera Raveendran and is 
+         <a  href="https://github.com/meera-raveendran/weather-react-app" target="_blank"> open-sourced </a> on GitHub
         </footer>
       </div>
     </div>
