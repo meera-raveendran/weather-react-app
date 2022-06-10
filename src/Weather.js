@@ -15,7 +15,7 @@ export default function Weather(props){
            wind : Math.round(response.data.wind.speed),
            city:response.data.name,      
            date:new Date (response.data.dt*1000),
-           IconUrl : "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+           Icon : response.data.weather[0].icon
         })
        
     }
@@ -40,10 +40,10 @@ export default function Weather(props){
             <form onSubmit={handleSubmit}>
                 <div className="row">
                 <div className="col-9">
-                <input type="search" placeholder="Enter a City..." className="form-control"/>
+                <input type="search" placeholder="Enter a City..." className="form-control" onChange={changeCity}/>
                     </div>
                     <div className="col-3">
-                    <input type="submit" value="search" className="btn btn-primary" w-150 onChange={changeCity}/>
+                    <input type="submit" value="search" className="btn btn-primary" w-150 />
                     </div>
                 </div>
                 
