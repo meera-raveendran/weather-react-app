@@ -13,7 +13,7 @@ function App() {
         {/* <Search /> */}
         <footer>
           This project was coded by Meera Raveendran and is 
-         <a  href="https://github.com/meera-raveendran/weather-react-app"> open-sourced </a> on GitHub
+         <a  href="https://github.com/meera-raveendran/weather-react-app" target="_blank"> open-sourced </a> on GitHub
         </footer>
       </div>
     </div>
