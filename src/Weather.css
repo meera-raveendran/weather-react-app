@@ -37,14 +37,21 @@
 
 }
 .Weather .temperature{
-    font-size: 64px;
+    font-size: 36px;
     font-weight: bold;
     line-height: 100px;
 }
 .Weather .unit{
     position: relative;
-    top: -36px;
+    top: -26px;
     font-size: 20px;
     font-weight: 600;
     line-height: 1;
+}
+
+.clearfix {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
