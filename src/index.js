@@ -13,7 +13,8 @@ function App() {
         {/* <Search /> */}
         <footer>
           This project was coded by Meera Raveendran and is 
-         <a  href="https://github.com/meera-raveendran/weather-react-app" target="_blank"> open-sourced </a> on GitHub
+         <a  href="https://github.com/meera-raveendran/weather-react-app" target="_blank" rel="noopener noreferrer"> open-sourced on GitHub </a> and 
+         <a href="" target="_blank" rel="noopener noreferrer"> hosted on Netlify</a>
         </footer>
       </div>
     </div>

@@ -3,6 +3,9 @@
     font-family: 'Open Sans', sans-serif;
     border-radius: 5px;
     max-width: 600px;
+    background-color: #bcc2f7;
+    box-shadow: 0px 2px 4px #7e7c7c;
+    margin-top: 20px;
 }
 .Weather form{
     margin: 10px 5px;
@@ -37,14 +40,14 @@
 
 }
 .Weather .temperature{
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 100px;
+    font-size: 40px;
+    font-weight:bolder;
+    line-height: 80px;
 }
 .Weather .unit{
     position: relative;
     top: -26px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 1;
 }
