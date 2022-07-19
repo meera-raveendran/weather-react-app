@@ -14,7 +14,7 @@ function App() {
         <footer>
           This project was coded by Meera Raveendran and is 
          <a  href="https://github.com/meera-raveendran/weather-react-app" target="_blank" rel="noopener noreferrer"> open-sourced on GitHub </a> and 
-         <a href="" target="_blank" rel="noopener noreferrer"> hosted on Netlify</a>
+         <a href="https://62d4eabce5d6e464bb64cc7b--merry-pithivier-078dfb.netlify.app/" target="_blank" rel="noopener noreferrer"> hosted on Netlify</a>
         </footer>
       </div>
     </div>
